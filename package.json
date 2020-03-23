@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-text-similarity",
+  "version": "1.0.0",
+  "description": "text similarity",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test test",
+    "test-cov": "egg-bin cov test",
+    "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS"
+  },
+  "author": "tkvern",
+  "license": "MIT",
+  "dependencies": {
+    "nodejieba": "^2.4.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}
